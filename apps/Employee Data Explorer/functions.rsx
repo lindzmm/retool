@@ -12,5 +12,6 @@
     notificationDuration={4.5}
     query={include("./lib/query2.js", "string")}
     resourceName="JavascriptQuery"
+    runWhenPageLoads={true}
   />
 </GlobalFunctions>
