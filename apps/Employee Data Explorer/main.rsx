@@ -9,6 +9,11 @@
     sticky={null}
     type="main"
   >
+    <Text
+      id="text1"
+      value="# Employee Data Explorer ({{query2.data}})"
+      verticalAlign="center"
+    />
     <Table
       id="table1"
       cellSelection="none"

@@ -7,4 +7,10 @@
     resourceTypeOverride=""
     warningCodes={[]}
   />
+  <JavascriptQuery
+    id="query2"
+    notificationDuration={4.5}
+    query={include("./lib/query2.js", "string")}
+    resourceName="JavascriptQuery"
+  />
 </GlobalFunctions>
