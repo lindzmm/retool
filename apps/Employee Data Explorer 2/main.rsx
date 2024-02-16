@@ -31,7 +31,7 @@
       <Column
         id="ffe5f"
         alignment="right"
-        editableOptions={{ map: { showStepper: true } }}
+        editableOptions={{ showStepper: true }}
         format="decimal"
         formatOptions={{ showSeparators: true, notation: "standard" }}
         groupAggregationMode="sum"
@@ -82,7 +82,7 @@
         id="f32a4"
         alignment="left"
         format="tag"
-        formatOptions={{ map: { automaticColors: true } }}
+        formatOptions={{ automaticColors: true }}
         groupAggregationMode="none"
         key="department"
         label="Department"
@@ -141,5 +141,6 @@
         />
       </ToolbarButton>
     </Table>
+    <Button id="button1" styleVariant="solid" text="Button" />
   </Frame>
 </App>
