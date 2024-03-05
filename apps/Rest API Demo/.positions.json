@@ -1,0 +1,47 @@
+{
+  "form1": {
+    "row": 11,
+    "height": 0.2,
+    "width": 4
+  },
+  "formButton1": {
+    "container": "form1",
+    "rowGroup": "footer",
+    "col": 8,
+    "height": 1,
+    "width": 4
+  },
+  "formTitle1": {
+    "container": "form1",
+    "rowGroup": "header",
+    "height": 0.6,
+    "width": 12
+  },
+  "numberInput1": {
+    "container": "form1",
+    "row": 2,
+    "height": 0.2,
+    "width": 12
+  },
+  "table1": {
+    "row": 1.4,
+    "height": 8,
+    "width": 8
+  },
+  "table1SearchFilter": {
+    "row": 1.2,
+    "height": 0.2,
+    "width": 4
+  },
+  "textInput1": {
+    "container": "form1",
+    "height": 0.2,
+    "width": 12
+  },
+  "textInput2": {
+    "container": "form1",
+    "row": 1,
+    "height": 0.2,
+    "width": 12
+  }
+}
