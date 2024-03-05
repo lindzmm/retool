@@ -233,7 +233,11 @@
       showHeader={true}
     >
       <Header>
-        <Text id="formTitle1" value="#### Form title" verticalAlign="center" />
+        <Text
+          id="formTitle1"
+          value="#### Edit Product Details"
+          verticalAlign="center"
+        />
       </Header>
       <Body>
         <TextInput
