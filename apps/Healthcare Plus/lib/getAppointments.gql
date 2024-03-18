@@ -1,0 +1,17 @@
+query($offset: Int, $pageSize: Int) {
+  appointments (limit: $pageSize, offset: $offset) {
+    provider {
+      first
+      last
+      specialty
+      phone
+    }
+    description
+    appointment_type
+    patient {
+      first
+      last
+    }
+    start
+  }
+}
