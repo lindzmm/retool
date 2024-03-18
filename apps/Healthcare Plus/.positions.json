@@ -1,0 +1,272 @@
+{
+  "alert1": {
+    "container": "listView1",
+    "row": 0.2,
+    "col": 9,
+    "height": 1
+  },
+  "alert2": {
+    "container": "listView4",
+    "row": 0.2,
+    "col": 4,
+    "height": 1,
+    "width": 8
+  },
+  "avatar2": {
+    "container": "listView4",
+    "row": 0.2,
+    "height": 0.2,
+    "width": 4
+  },
+  "avatar3": {
+    "rowGroup": "footer",
+    "subcontainer": "sidebarFrame1",
+    "height": 0.2,
+    "width": 1
+  },
+  "avatar4": {
+    "container": "listView1",
+    "row": 0.2,
+    "height": 0.2,
+    "width": 4
+  },
+  "button2": {
+    "container": "container6",
+    "rowGroup": "header",
+    "col": 8,
+    "height": 0.8,
+    "width": 4
+  },
+  "button3": {
+    "container": "container7",
+    "rowGroup": "header",
+    "col": 8,
+    "height": 0.8,
+    "width": 4
+  },
+  "button4": {
+    "container": "container9",
+    "rowGroup": "header",
+    "col": 8,
+    "height": 0.8,
+    "width": 4
+  },
+  "button5": {
+    "container": "container8",
+    "rowGroup": "header",
+    "col": 8,
+    "height": 0.8,
+    "width": 4
+  },
+  "container1": {
+    "height": 0.2,
+    "width": 12
+  },
+  "container2": {
+    "container": "container1",
+    "subcontainer": "45949",
+    "row": 0.2,
+    "height": 0.2
+  },
+  "container3": {
+    "container": "container1",
+    "subcontainer": "45949",
+    "row": 0.2,
+    "col": 3,
+    "height": 2.8
+  },
+  "container4": {
+    "container": "container1",
+    "subcontainer": "45949",
+    "row": 0.2,
+    "col": 6,
+    "height": 2.8
+  },
+  "container5": {
+    "container": "container1",
+    "subcontainer": "45949",
+    "row": 0.2,
+    "col": 9,
+    "height": 2.8
+  },
+  "container6": {
+    "row": 0.2,
+    "height": 2,
+    "width": 6
+  },
+  "container7": {
+    "row": 2.2,
+    "height": 2,
+    "width": 6
+  },
+  "container8": {
+    "row": 0.2,
+    "col": 6,
+    "height": 2,
+    "width": 6
+  },
+  "container9": {
+    "row": 2.2,
+    "col": 6,
+    "height": 2,
+    "width": 6
+  },
+  "containerTitle1": {
+    "container": "container1",
+    "rowGroup": "header",
+    "height": 0.6,
+    "width": 12
+  },
+  "containerTitle2": {
+    "container": "container2",
+    "rowGroup": "header",
+    "height": 0.6,
+    "width": 12
+  },
+  "containerTitle3": {
+    "container": "container3",
+    "rowGroup": "header",
+    "height": 0.6,
+    "width": 12
+  },
+  "containerTitle4": {
+    "container": "container4",
+    "rowGroup": "header",
+    "height": 0.6,
+    "width": 12
+  },
+  "containerTitle5": {
+    "container": "container5",
+    "rowGroup": "header",
+    "height": 0.6,
+    "width": 12
+  },
+  "containerTitle6": {
+    "container": "container6",
+    "rowGroup": "header",
+    "col": 1,
+    "height": 0.6
+  },
+  "containerTitle7": {
+    "container": "container7",
+    "rowGroup": "header",
+    "col": 1,
+    "height": 0.8,
+    "width": 7
+  },
+  "containerTitle8": {
+    "container": "container8",
+    "rowGroup": "header",
+    "col": 1,
+    "height": 0.8,
+    "width": 5
+  },
+  "containerTitle9": {
+    "container": "container9",
+    "rowGroup": "header",
+    "col": 1,
+    "height": 0.8,
+    "width": 4
+  },
+  "divider3": {
+    "container": "listView1",
+    "row": 1.2,
+    "height": 0.2,
+    "width": 12
+  },
+  "divider4": {
+    "container": "listView4",
+    "row": 1.4,
+    "height": 0.2,
+    "width": 12
+  },
+  "healthcareDemoNavBar1": {
+    "subcontainer": "sidebarFrame1",
+    "height": 1,
+    "width": 1
+  },
+  "icon1": {
+    "container": "container7",
+    "rowGroup": "header",
+    "height": 0.8,
+    "width": 1
+  },
+  "icon2": {
+    "container": "container6",
+    "rowGroup": "header",
+    "height": 0.8,
+    "width": 1
+  },
+  "icon3": {
+    "container": "container8",
+    "rowGroup": "header",
+    "height": 0.8,
+    "width": 1
+  },
+  "icon4": {
+    "container": "container9",
+    "rowGroup": "header",
+    "height": 0.8,
+    "width": 1
+  },
+  "image1": {
+    "rowGroup": "header",
+    "subcontainer": "sidebarFrame1",
+    "height": 0.6,
+    "width": 1
+  },
+  "listView1": {
+    "container": "container6",
+    "subcontainer": "45949",
+    "height": 1,
+    "width": 12
+  },
+  "listView4": {
+    "container": "container9",
+    "subcontainer": "45949",
+    "height": 1,
+    "width": 12
+  },
+  "statistic1": {
+    "container": "container2",
+    "subcontainer": "45949",
+    "height": 0.8,
+    "width": 12
+  },
+  "statistic2": {
+    "container": "container3",
+    "subcontainer": "45949",
+    "height": 0.8,
+    "width": 12
+  },
+  "statistic3": {
+    "container": "container5",
+    "subcontainer": "45949",
+    "height": 0.8,
+    "width": 12
+  },
+  "statistic4": {
+    "container": "container4",
+    "subcontainer": "45949",
+    "height": 0.8,
+    "width": 12
+  },
+  "table2": {
+    "container": "container7",
+    "subcontainer": "45949",
+    "height": 10.6,
+    "width": 12
+  },
+  "table3": {
+    "container": "container8",
+    "subcontainer": "45949",
+    "height": 10,
+    "width": 12
+  },
+  "text3": {
+    "container": "listView1",
+    "col": 4,
+    "height": 0.6,
+    "width": 5
+  }
+}
