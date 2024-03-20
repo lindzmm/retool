@@ -3,8 +3,15 @@
   "version": "43.0.9",
   "pageUuid": "68193a00-cc37-11ee-baba-afff96e4a007",
   "appTemplate": {
+    "notificationsSettings": {
+      "object": {
+        "globalQueryShowFailureToast": true,
+        "globalQueryShowSuccessToast": true,
+        "globalQueryToastDuration": 4.5
+      }
+    },
     "shortlink": false,
-    "version": "3.30.2",
+    "version": "3.33.14",
     "experimentalDataTabEnabled": true
   }
 }
