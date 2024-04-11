@@ -1,0 +1,24 @@
+{
+  "type": "notion",
+  "host": null,
+  "port": null,
+  "databaseName": null,
+  "databaseUsername": null,
+  "databasePassword": null,
+  "description": null,
+  "outboundRegion": null,
+  "ssl": null,
+  "editPrivilege": null,
+  "options": {
+    "spec": "https://specs.tryretool.com/specs/notion/3.0.3/1.0.0.json",
+    "api_key": "{{ environment.variables.notion_token }}",
+    "customHeaders": [["Authorization", "Bearer API_KEY"]],
+    "authentication": "apiKey",
+    "defaultServerUrl": "https://api.notion.com",
+    "customQueryParameters": [["", ""]]
+  },
+  "environment": "production",
+  "dynamicallyQueryable": false,
+  "uuid": "7d0237f6-672d-437e-957a-392a01061bcd",
+  "toolscriptVersion": "1.0.0"
+}
