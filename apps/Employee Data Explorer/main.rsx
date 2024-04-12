@@ -21,7 +21,17 @@
       iconBefore="bold/interface-search"
       label="Search"
       placeholder="Search in table"
-    />
+    >
+      <Event
+        event="submit"
+        method="trigger"
+        params={{ ordered: [] }}
+        pluginId="query1"
+        type="datasource"
+        waitMs="0"
+        waitType="debounce"
+      />
+    </TextInput>
     <Table
       id="table1"
       cellSelection="none"
@@ -31,7 +41,6 @@
       emptyMessage="No rows found"
       enableSaveActions={true}
       primaryKeyColumnId="ffe5f"
-      searchTerm="{{ table1SearchFilter.value }}"
       showBorder={true}
       showFooter={true}
       showHeader={true}

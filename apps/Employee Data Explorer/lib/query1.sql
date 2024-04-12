@@ -1,1 +1,1 @@
-select * from "Employees"
+select * from "Employees" where name ilike {{ '%' + table1SearchFilter.value + '%' }}
