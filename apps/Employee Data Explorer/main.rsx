@@ -5,6 +5,7 @@
     enableFullBleed={false}
     isHiddenOnDesktop={false}
     isHiddenOnMobile={false}
+    padding="8px 12px"
     paddingType="normal"
     sticky={null}
     type="main"
@@ -13,6 +14,13 @@
       id="text1"
       value="# Employee Data Explorer ({{query2.data}})"
       verticalAlign="center"
+    />
+    <TextInput
+      id="table1SearchFilter"
+      hideLabel={true}
+      iconBefore="bold/interface-search"
+      label="Search"
+      placeholder="Search in table"
     />
     <Table
       id="table1"
@@ -23,6 +31,7 @@
       emptyMessage="No rows found"
       enableSaveActions={true}
       primaryKeyColumnId="ffe5f"
+      searchTerm="{{ table1SearchFilter.value }}"
       showBorder={true}
       showFooter={true}
       showHeader={true}
