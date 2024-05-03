@@ -12,7 +12,7 @@
   >
     <Text
       id="text1"
-      value="# Employee Data Explorer ({{query2.data}})"
+      value="# Employee Data Explorer ({{retoolContext.configVars.env_name}})"
       verticalAlign="center"
     />
     <TextInput
