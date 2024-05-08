@@ -7,10 +7,10 @@ test.describe("User Management", () => {
     await page.goto("https://lindsey-dev.retool.dev/auth/login");
     await page
       .getByPlaceholder("name@company.com")
-      .fill(config.email, { timeout: 10000 });
+      .fill("lindseymorrison+test@retool.com", { timeout: 10000 });
     await page
       .getByPlaceholder("*******************")
-      .fill(config.password,  { timeout: 10000 });
+      .fill("RetoolWebTestPass",  { timeout: 10000 });
     await page.getByText(/^Sign in$/).click();
     await page.getByText("Apps").click();
     
