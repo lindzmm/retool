@@ -1,0 +1,29 @@
+name: Playwright Tests
+
+on:
+  push:
+    branches:
+      - main  # Adjust this to your default branch
+  pull_request:
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Check out code
+        uses: actions/checkout@v2
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v2
+        with:
+          node-version: '16'  # Adjust the Node.js version to your requirements
+
+      - name: Install dependencies
+        run: npm install
+
+      - name: Install Playwright browsers
+        run: npx playwright install
+
+      - name: Run Playwright tests
+        run: npx playwright test

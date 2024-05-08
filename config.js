@@ -1,4 +1,4 @@
 module.exports = {
-    email: "null",
-    password: "null"
+    email: "lindseymorrison+test@retool.com",
+    password: "RetoolWebTestPass"
 };
