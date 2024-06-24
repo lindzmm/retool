@@ -5,15 +5,33 @@
     enableFullBleed={false}
     isHiddenOnDesktop={false}
     isHiddenOnMobile={false}
+    padding="8px 12px"
     paddingType="normal"
     sticky={null}
     type="main"
   >
     <Text
       id="text1"
-      value="# Employee Data Explorer ({{query2.data}})"
+      value="# Employee Data Explorer ({{retoolContext.configVars.env_name}})"
       verticalAlign="center"
     />
+    <TextInput
+      id="table1SearchFilter"
+      hideLabel={true}
+      iconBefore="bold/interface-search"
+      label="Search"
+      placeholder="Search in table"
+    >
+      <Event
+        event="submit"
+        method="trigger"
+        params={{ ordered: [] }}
+        pluginId="query1"
+        type="datasource"
+        waitMs="0"
+        waitType="debounce"
+      />
+    </TextInput>
     <Table
       id="table1"
       cellSelection="none"
